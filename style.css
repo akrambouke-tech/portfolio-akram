@@ -9,13 +9,15 @@ body{
     padding:40px 0;
 }
 
-.page{
+
+page{
     width:100%;
     max-width:1100px;
     padding:20px;
 }
 
-.hero{
+
+hero{
     background:#ffffff;
     border-radius:22px;
     padding:40px;
@@ -28,35 +30,42 @@ body{
     text-align:center;
 }
 
-.photo-wrapper{
+
+
+photo-wrapper{
     flex:1 1 350px;
     display:flex;
     justify-content:center;
 }
 
-.photo-wrapper img{
+
+photo-wrapper img{
     width:320px;
     height:320px;
     border-radius:50%;
     object-fit:cover;
 }
 
-.content{
+
+content{
     flex:1 1 350px;
 }
 
-.content h1{
+
+content h1{
     font-size:52px;
     margin:0 0 5px 0;
 }
 
-.content h2{
+
+content h2{
     font-size:24px;
     margin:0 0 12px 0;
     color:#555;
 }
 
-.buttons{
+
+buttons{
     margin-top:20px;
     display:flex;
     flex-wrap:wrap;
@@ -64,7 +73,8 @@ body{
     justify-content:center;
 }
 
-.btn{
+
+btn{
     padding:10px 20px;
     border-radius:6px;
     text-decoration:none;
@@ -73,12 +83,13 @@ body{
     font-size:14px;
 }
 
-.btn-yellow{ background:#f2b632; }
-.btn-red{ background:#e74c3c; }
-.btn-green{ background:#27ae60; }
-.btn-blue{ background:#32b5c5; }
 
-.sub-card{
+btn-yellow{ background:#f2b632; }
+btn-red{ background:#e74c3c; }
+btn-green{ background:#27ae60; }
+btn-blue{ background:#32b5c5; }
+
+sub-card{
     background:white;
     border-radius:18px;
     padding:30px;
@@ -86,12 +97,15 @@ body{
     line-height:1.6;
 }
 
-.sub-card h1{
+
+sub-card h1{
     margin-top:0;
     font-size:28px;
 }
 
-.back-link{
+
+
+back-link{
     display:inline-block;
     margin-top:20px;
     text-decoration:none;
@@ -99,11 +113,14 @@ body{
     font-weight:bold;
 }
 
-.passion-item{
+
+passion-item{
     margin-bottom:35px;
 }
 
-.passion-item img{
+
+
+passion-item img{
     width:100%;
     border-radius:16px;
     box-shadow:0 4px 12px rgba(0,0,0,0.15);
@@ -111,60 +128,81 @@ body{
 
 
 
-.cv-card{
+cv-card{
     border-top:5px solid #f2b632;
 }
 
-.cv-card h1{
+
+cv-card h1{
     color:#f2b632;
 }
 
-.projets-card{
+
+
+projets-card{
     border-top:5px solid #e74c3c;
 }
 
-.projets-card h1{
+
+
+projets-card h1{
     color:#e74c3c;
 }
 
-.passions-card{
+
+
+passions-card{
     border-top:5px solid #27ae60;
 }
 
-.passions-card h1{
+
+passions-card h1{
     color:#27ae60;
+
+
 }
 
-.contact-card{
+
+contact-card{
     border-top:5px solid #32b5c5;
+
+
 }
 
-.contact-card h1{
+contact-card h1{
     color:#32b5c5;
+
 }
 
 
-
-.contact-form{
+contact-form{
     display:flex;
     flex-direction:column;
     gap:12px;
+
+
 }
 
-.contact-form input,
+contact-form input,
 .contact-form textarea{
     width:100%;
     padding:12px;
     border-radius:8px;
     border:1px solid #ccc;
     background:#fafafa;
+
+
 }
 
-.contact-form textarea{
+
+
+contact-form textarea{
     height:120px;
+
 }
 
-.btn-send{
+
+btn-send{
     background:#0a4dbf;
     color:white;
     border:none;
@@ -173,3 +211,4 @@ body{
     font-weight:bold;
     cursor:pointer;
 }
+
