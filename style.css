@@ -7,22 +7,15 @@ body{
     justify-content:center;
     align-items:flex-start;
     padding:40px 0;
-  
-
 }
 
-
-
-page{
+.page{
     width:100%;
     max-width:900px;
     padding:20px;
-
 }
 
-
-
-hero{
+.hero{
     background:#ffffff;
     border-radius:18px;
     padding:30px;
@@ -35,55 +28,35 @@ hero{
     text-align:center;
 }
 
-
-photo-wrapper{
+.photo-wrapper{
     flex:1 1 250px;
     display:flex;
     justify-content:center;
-
-
 }
 
-
-
-
-photo-wrapper img{
+.photo-wrapper img{
     width:260px;
     height:260px;
     border-radius:50%;
     object-fit:cover;
 }
 
-content{
+.content{
     flex:1 1 260px;
 }
 
-
-
-
-
-
-content h1{
+.content h1{
     font-size:48px;
     margin:0 0 5px 0;
 }
 
-
-
-
-content h2{
+.content h2{
     font-size:22px;
     margin:0 0 12px 0;
     color:#555;
-
-
-
-
 }
 
-
-
-buttons{
+.buttons{
     margin-top:20px;
     display:flex;
     flex-wrap:wrap;
@@ -91,9 +64,7 @@ buttons{
     justify-content:center;
 }
 
-
-
-btn{
+.btn{
     padding:10px 20px;
     border-radius:6px;
     text-decoration:none;
@@ -102,69 +73,51 @@ btn{
     font-size:14px;
 }
 
-
-
 .btn-yellow{ background:#f2b632; }
 .btn-red{ background:#e74c3c; }
 .btn-green{ background:#27ae60; }
 
-contact-section{
+.contact-section{
     margin-top:40px;
     background:#ffffff;
     padding:30px;
     border-radius:16px;
     box-shadow:0 3px 12px rgba(0,0,0,0.1);
-
-
 }
 
-
-
-
-contact-section h2{
+.contact-section h2{
     margin-top:0;
     text-align:center;
 }
 
-
-
-contact-form{
+.contact-form{
     display:flex;
     flex-direction:column;
     gap:12px;
 }
 
-contact-form input,
-contact-form textarea{
+.contact-form input,
+.contact-form textarea{
     width:100%;
     padding:12px;
     border-radius:8px;
     border:1px solid #ccc;
     background:#fafafa;
     font-size:15px;
-
-
 }
 
 .contact-form textarea{
     height:120px;
 }
 
-
-
-contact-buttons{
+.contact-buttons{
     display:flex;
     justify-content:center;
     gap:15px;
     margin-top:10px;
-
-
 }
 
-
-
-
-btn-send{
+.btn-send{
     background:#0a4dbf;
     color:white;
     border:none;
@@ -174,10 +127,7 @@ btn-send{
     cursor:pointer;
 }
 
-
-
-
-btn-clear{
+.btn-clear{
     background:#666;
     color:white;
     border:none;
@@ -185,34 +135,22 @@ btn-clear{
     font-weight:bold;
     border-radius:6px;
     cursor:pointer;
-
-
 }
 
-
-
-sub-card{
+.sub-card{
     background:white;
     border-radius:18px;
     padding:30px;
     box-shadow:0 3px 12px rgba(0,0,0,0.15);
     line-height:1.6;
-
-
 }
 
-
-
-
-sub-card h1{
+.sub-card h1{
     margin-top:0;
     font-size:28px;
-
 }
 
-
-
-back-link{
+.back-link{
     display:inline-block;
     margin-top:20px;
     text-decoration:none;
@@ -220,23 +158,17 @@ back-link{
     font-weight:bold;
 }
 
-
-back-link:hover{
+.back-link:hover{
     text-decoration:underline;
 }
 
-
-
-passion-item{
+.passion-item{
     margin-bottom:35px;
 }
 
-
-
-passion-item img{
+.passion-item img{
     width:100%;
     border-radius:16px;
     box-shadow:0 4px 12px rgba(0,0,0,0.15);
     margin-top:10px;
 }
-
